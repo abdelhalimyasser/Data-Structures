@@ -53,7 +53,6 @@ root.right.right = new Node(7);
 ### 🔁 Traversals Functions
 
 ``` java
-// Test traversals
 System.out.println("PreOrder Traversal:");
 tree.printPreOrder(root); // Output: 1 2 4 5 3 6 7 
 
