@@ -1,13 +1,13 @@
 # 🌳 Binary Tree in Java
 
 This project implements a **binary tree data structure** in Java, focusing on tree traversal methods.  
-It includes **pre-order, in-order, post-order, and level-order traversals**, with the level-order traversal optimized using a **Queue with ArrayDeque** for better time and space efficiency.  
+It includes **pre-order, in-order, post-order, and level-order traversals**, with the level-order traversal optimized using a **Queue with ArrayDeque** for better time and space efficiency / **Queue with LinkedList** for large nodes.  
 
 This implementation is part of a larger **"Data Structures"** project that includes other data structures like Stack, Queue, etc.
 
 ---
 
-# Folder Map
+# 📂 Folder Map
 
 - **Tree.java**: Defines the Node and Tree classes with traversal methods.  
 - **Main.java**: Contains example usage and testing of the tree implementation.  
@@ -29,10 +29,10 @@ This implementation is part of a larger **"Data Structures"** project that inclu
 
 ## 🚀 Example Usage
 
-### 📂 The Tree Shape that we make 
+### 🌲 The Tree Shape that we make 
 
 ```java
-     //      1
+         //      1
 		//      /  \
 		//     2    3
 		//    /\    /\
