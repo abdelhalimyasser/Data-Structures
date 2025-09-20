@@ -1,4 +1,4 @@
-# 🌳 Tree in Java
+# 🌳 Binary Tree in Java
 
 This project implements a **binary tree data structure** in Java, focusing on tree traversal methods.  
 It includes **pre-order, in-order, post-order, and level-order traversals**, with the level-order traversal optimized using a **Queue with ArrayDeque** for better time and space efficiency or **Queue with LinkedList** for large nodes.  
@@ -16,7 +16,7 @@ This implementation is part of a larger **"Data Structures"** project that inclu
 ---
 ## ✅ Features
 
-### 🧱 Tree Basics
+### 🧱 Binary Tree Basics
 
 - **Node Class**: Represents a tree node with an integer value and left/right child pointers.  
 - **Tree Class**:
@@ -77,6 +77,15 @@ System.out.println("Size of the tree: " + tree.size(root));  // Output: 7
 // leaf count
 System.out.println("Number of leaf nodes: " + tree.countLeaves(root));  // Output: 7
 
+// max
+System.out.println("The maximim: " + tree.max(root));  // Output: 7
+
+// min
+System.out.println("The minimum: " + tree.min(root));  // Output: 1
+
+// sum
+System.out.println("The total sum: " + tree.sum(root));  // Output: 28
+
 // search
 int searchValue = 4;
 System.out.println("Is " + searchValue + " found? " + tree.search(root, searchValue));  // Output: true
@@ -118,7 +127,7 @@ System.out.println("Is " + searchValue + " found? " + tree.search(root, searchVa
 
 ```bash
 git clone https://github.com/abdelhalim-yasser/data-structures.git
-cd data-structures/Tree/Implementation\ in\ Java
+cd Trees/Binary Tree/Implementation in Java
 ```
 ### Compile the Code
 
