@@ -12,7 +12,7 @@
 ## 🌐 Try it Online
 
 You can try the **interactive queue visualization** here:  
-👉 **[Live Demo](https://abdelhalim-yasser.github.io/Queue/)**
+👉 **[Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Queue%20Visualizer.html)**
 
 ---
 
