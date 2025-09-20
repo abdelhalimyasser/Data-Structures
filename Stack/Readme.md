@@ -4,15 +4,15 @@
 
 ## 🚀 Implementations
 
-- **[Stack in C](https://github.com/abdelhalim-yasser/Stack/tree/main/Implementation%20of%20Stack%20in%20C)**
-- **[Stack in Java](https://github.com/abdelhalim-yasser/Stack/tree/main/Implementation%20of%20Stack%20in%20Java)**
+- **[Stack in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Stack/Implementation%20of%20Stack%20in%20C)**
+- **[Stack in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Stack/Implementation%20of%20Stack%20in%20Java)**
 
 ---
 
 ## 🌐 Try it Online
 
 You can try the **interactive stack visualization** here:  
-👉 **[Live Demo](https://abdelhalim-yasser.github.io/Stack/)**
+👉 **[Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Stack%20Visualizer.html)**
 
 ---
 
