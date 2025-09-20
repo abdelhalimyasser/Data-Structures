@@ -60,6 +60,15 @@ int size(TreeNode* node);
 //countLeaves Function counts the number of leaf nodes (nodes with no children)
 int countLeaves(TreeNode* node);
 
+// max Function to find the maximum value in the tree.
+int max(TreeNode* node);
+
+// min Function to find the minimum value in the tree
+int min(TreeNode* node);
+
+// sum Function to compute the sum of all node values
+int sum(TreeNode* node);
+
 // search Function to search for element in the Tree Nodes
 bool search(TreeNode* node, int element);
 
