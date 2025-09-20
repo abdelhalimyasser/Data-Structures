@@ -31,7 +31,10 @@ This implementation is part of a larger **"Data Structures"** project that inclu
 
 - `height(TreeNode* node)` → Computes the height of the tree.  
 - `size(TreeNode* node)` → Counts the total number of nodes.  
-- `countLeaves(TreeNode* node)` → Counts the number of leaf nodes (nodes with no children).  
+- `countLeaves(TreeNode* node)` → Counts the number of leaf nodes (nodes with no children).
+- `max(node)` → Find the maximum value in the tree.
+- `min(node)` → Find the minimum value in the tree.
+- `sum(node)` → Compute the sum of all node values.
 - `search(TreeNode* node, int element)` → Checks if a value exists in the tree.
 
 ---
@@ -88,6 +91,15 @@ printf("Size of the tree: %d\n", size(root)); // Output: 7
 
 // leaf count
 printf("Number of leaf nodes: %d\n", countLeaves(root)); // Output: 4
+
+// Test max
+printf("Maximum value: %d\n", max(root));  // Output: 7
+
+// Test min
+printf("Minimum value: %d\n", min(root));  // Output: 1
+    
+// Test Sum
+printf("Sum of all nodes: %d\n", sum(root));  // Output: 28
 
 // search
 int searchValue = 4;
