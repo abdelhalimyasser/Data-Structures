@@ -33,6 +33,9 @@ A **Binary Tree** is a hierarchical data structure where each node has at most t
 - `height(node)` → Compute the height of the tree.
 - `size(node)` → Count the total number of nodes.
 - `countLeaves(node)` → Count the number of leaf nodes (nodes with no children).
+- `max(node)` → Find the maximum value in the tree.
+- `min(node)` → Find the minimum value in the tree.
+- `sum(node)` → Compute the sum of all node values.
 - `search(node, value)` → Check if a value exists in the tree.
 
 💡 *Each implementation folder contains the same core functionality, with language-specific optimizations and additional features.*
@@ -94,6 +97,9 @@ Both implementations use the following binary tree for testing:
 - **Height**: `3`
 - **Size**: `7`
 - **Leaf Count**: `4` (nodes 4, 5, 6, 7)
+- **Maximum Value**: `7`
+- **Minimum Value**: `1`
+- **Sum of Nodes**: `28`
 - **Search for 4**: `true`
 
 ---
