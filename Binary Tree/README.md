@@ -8,8 +8,8 @@ This project is part of a larger **"Data Structures"** repository that includes 
 
 ## 🚀 Implementations
 
-- **[Binary Tree in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Tree/Implementation%20in%20C)**
-- **[Binary Tree in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Tree/Implementation%20in%20Java)**
+- **[Binary Tree in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Binary%20Tree/Implementation%20in%20C)**
+- **[Binary Tree in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Binary%20Tree/Implementation%20in%20Java)**
 
 ---
 
