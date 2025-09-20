@@ -116,19 +116,19 @@ System.out.println("Is " + searchValue + " found? " + tree.search(root, searchVa
 
 ### Clone the Repository
 
-```
+```bash
 git clone https://github.com/abdelhalim-yasser/data-structures.git
 cd data-structures/Tree/Implementation\ in\ Java
 ```
 ### Compile the Code
 
-```
+```bash
 javac Main.java
 ```
 
 ### Run the Program
 
-```
+```bash
 java Main
 ```
 ---
