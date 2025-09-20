@@ -2,7 +2,7 @@ package mypackage;
 import java.util.*;
 
 // Node class to create Nodes for the Tree
-class Node {
+public class Node {
 	int data;
 	Node left;
 	Node right;
@@ -15,7 +15,7 @@ class Node {
 }
 
 // Tree class to make Trees
-class Tree {
+public class Tree {
 	// Traversals Functions
 	// printPreOrder Function to print preorder traversal (root -> left -> right)
 	public void printPreOrder(Node node) {
@@ -64,10 +64,10 @@ class Tree {
 		// Condition to check if the Tree Node is empty or not
 		if (node == null)
 			return;
-        
-        // Create Queue with ArrayDeque behavior to achieve fast & smooth operations for small (e.g. nodes < 10,000)
-        Queue<Node> queue = new ArrayDeque<>();
-		
+
+		// Create Queue with ArrayDeque behavior to achieve fast & smooth operations for small (e.g. nodes < 10,000)
+		Queue<Node> queue = new ArrayDeque<>();
+
 		// Create Queue with Linkedlist behavior to achieve dynamic operations for large nodes (e.g. nodes > 5,000)
 		// Queue<Node> queue = new LinkedList<>();
 
@@ -129,6 +129,55 @@ class Tree {
 
 		// Count the number of the left & right paths
 		return countLeaves(node.left) + countLeaves(node.right) + 1;  // +1 is for the root
+	}
+
+	// max Function to find the maximum value in the tree.
+	public int max(Node node) {
+		// Condition to check if the Tree Node is empty or not
+		if (node == null)
+			return 0;
+
+		int maxVal = node.data;
+		if(node.left != null) {
+			int leftMax = max(node.left);
+			maxVal = (leftMax > maxVal) ? leftMax : maxVal;
+		}
+
+		if(node.right != null) {
+			int rightMax = max(node.right);
+			maxVal = (rightMax > maxVal) ? rightMax : maxVal;
+		}
+
+		return maxVal;
+	}
+
+// min Function to find the minimum value in the tree
+	public int min(Node node) {
+		// Condition to check if the Tree Node is empty or not
+		if (node == null)
+			return 0;
+
+		int minVal = node.data;
+		if(node.left != null) {
+			int leftMin = min(node.left);
+			minVal = (leftMin < minVal) ? leftMin : minVal;
+		}
+
+		if (node.right != null) {
+			int rightMin = min(node.right);
+			minVal = (rightMin < minVal) ? rightMin : minVal;
+		}
+
+		return minVal;
+	}
+
+// sum Function to compute the sum of all node values
+	public int sum(Node node) {
+		// Condition to check if the Tree Node is empty or not
+		if (node == null)
+			return 0;
+
+		return node.data + sum(node.left) + sum(node.right);
 	}
 
 	// search Function to search for element in the Tree Nodes
