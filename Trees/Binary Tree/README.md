@@ -8,8 +8,8 @@ This project is part of a larger **"Data Structures"** repository that includes 
 
 ## 🚀 Implementations
 
-- **[Binary Tree in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Binary%20Tree/Implementation%20in%20C)**
-- **[Binary Tree in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Binary%20Tree/Implementation%20in%20Java)**
+- **[Binary Tree in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Tree/Implementation%20in%20C)**
+- **[Binary Tree in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Tree/Implementation%20in%20Java)**
 
 ---
 
@@ -111,7 +111,7 @@ Both implementations use the following binary tree for testing:
 
 ```bash
 git clone https://github.com/abdelhalim-yasser/data-structures.git
-cd data-structures/Tree/Implementation\ in\ C
+cd Trees/Binary Tree/Implementation in C
 ```
 
 #### Compile the Code
@@ -133,7 +133,7 @@ gcc main.c -o tree
 
 ```bash
 git clone https://github.com/abdelhalim-yasser/data-structures.git
-cd data-structures/Tree/Implementation\ in\ Java
+cd Trees/Binary Tree/Implementation in C
 ```
 #### Compile the Code
 
