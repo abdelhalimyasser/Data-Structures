@@ -1,4 +1,4 @@
-# 🌳 Tree
+# 🌳 Binary Tree
 
 This project provides implementations of a **tree data structure** in C and Java, focusing on tree traversal methods and statistical operations. It includes **pre-order (VLR), in-order (LVR), post-order (LRV), and level-order traversals**, along with functions to compute the tree's height, size, leaf count, and search for values. The implementations are optimized for memory efficiency, with the C version using an **array-based queue** and the Java version using a **Queue with ArrayDeque**.
 
@@ -8,21 +8,21 @@ This project is part of a larger **"Data Structures"** repository that includes 
 
 ## 🚀 Implementations
 
-- **[Tree in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Tree/Implementation%20in%20C)**
-- **[Tree in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Tree/Implementation%20in%20Java)**
+- **[Binary Tree in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Tree/Implementation%20in%20C)**
+- **[Binary Tree in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Tree/Implementation%20in%20Java)**
 
 ---
 
 ## 🌐 Try it Online
 
 Explore the **interactive binary tree visualization** to see traversals and operations in action:  
-👉 **[Live Demo](https://abdelhalim-yasser.github.io/Tree/)** *(Coming soon!)*
+👉 **[Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Binary%20Tree%20Visualizer.html)**
 
 ---
 
 ## 📌 About Tree
 
-A **tree** is a hierarchical data structure where each node has at most two children, referred to as the **left child** and **right child**. It is widely used in applications like expression trees, binary search trees, and hierarchical data representation.
+A **Binary Tree** is a hierarchical data structure where each node has at most two children, referred to as the **left child** and **right child**. It is widely used in applications like expression trees, binary search trees, and hierarchical data representation.
 
 **Main Operations:**
 - `createTreeNode(data)` → Create a new tree node with the given data.
@@ -42,7 +42,7 @@ A **tree** is a hierarchical data structure where each node has at most two chil
 ## 📂 Project Structure
 
 ```
-Tree
+Binary Tree
 ├── Implementation in C
 │   ├── README.md
 │   ├── Tree.c
