@@ -1,4 +1,4 @@
-# 🌳 Binary Tree in Java
+# 🌳 Tree in Java
 
 This project implements a **binary tree data structure** in Java, focusing on tree traversal methods.  
 It includes **pre-order, in-order, post-order, and level-order traversals**, with the level-order traversal optimized using a **Queue with ArrayDeque** for better time and space efficiency or **Queue with LinkedList** for large nodes.  
