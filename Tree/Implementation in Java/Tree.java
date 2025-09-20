@@ -104,7 +104,7 @@ class Tree {
 		// Count the right path
 		int rightHeight = height(node.right);
 		// Compare & Get the maximum path
-		return Math.max(leftHeight, rightHeight) + 1;  // +1 is for the root
+		return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;  // +1 is for the root
 	}
 
 	// size Function to get the size of the Tree
