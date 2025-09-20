@@ -180,8 +180,53 @@ bool search(TreeNode* node, int element){
 	return search(node->left, element) || search(node->right, element);	
 }
 
+// max Function to find the maximum value in the tree.
+int max(TreeNode* node) {
+	// Condition to check if the Tree Node is empty or not
+    if (node == NULL)
+        return 0; 
+	
+    int maxVal = node->data;
+    if (node->left != NULL) {
+        int leftMax = max(node->left);
+        maxVal = (leftMax > maxVal) ? leftMax : maxVal;
+    }
+    if (node->right != NULL) {
+        int rightMax = max(node->right);
+        maxVal = (rightMax > maxVal) ? rightMax : maxVal;
+    }
+    return maxVal;
+}
+
+// min Function to find the minimum value in the tree
+int min(TreeNode* node) {
+	// Condition to check if the Tree Node is empty or not
+    if (node == NULL)
+        return 0; 
+	
+    int minVal = node->data;
+    if (node->left != NULL) {
+        int leftMin = min(node->left);
+        minVal = (leftMin < minVal) ? leftMin : minVal;
+    }
+    if (node->right != NULL) {
+        int rightMin = min(node->right);
+        minVal = (rightMin < minVal) ? rightMin : minVal;
+    }
+    return minVal;
+}
+
+// sum Function to compute the sum of all node values
+int sum(TreeNode* node) {
+	// Condition to check if the Tree Node is empty or not
+    if (node == NULL)
+        return 0;
+    return node->data + sum(node->left) + sum(node->right);
+}
+
 // Free the tree to prevent memory leaks
 void freeTree(TreeNode* node) {
+	// Condition to check if the Tree Node is empty or not
     if (node == NULL)
         return;
     freeTree(node->left);
