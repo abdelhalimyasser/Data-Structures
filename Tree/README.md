@@ -1,6 +1,6 @@
 # 🌳 Tree
 
-This project provides implementations of a **binary tree data structure** in C and Java, focusing on tree traversal methods and statistical operations. It includes **pre-order, in-order, post-order, and level-order traversals**, along with functions to compute the tree's height, size, leaf count, and search for values. The implementations are optimized for memory efficiency, with the C version using an **array-based queue** and the Java version using a **Queue with ArrayDeque**.
+This project provides implementations of a **tree data structure** in C and Java, focusing on tree traversal methods and statistical operations. It includes **pre-order (VLR), in-order (LVR), post-order (LRV), and level-order traversals**, along with functions to compute the tree's height, size, leaf count, and search for values. The implementations are optimized for memory efficiency, with the C version using an **array-based queue** and the Java version using a **Queue with ArrayDeque**.
 
 This project is part of a larger **"Data Structures"** repository that includes other data structures like Stack, Queue, etc.
 
