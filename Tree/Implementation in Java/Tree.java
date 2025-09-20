@@ -16,6 +16,7 @@ class Node {
 
 // Tree class to make Trees
 class Tree {
+	// Traversals Functions
 	// printPreOrder Function to print preorder traversal (root -> left -> right)
 	public void printPreOrder(Node node) {
 		// Condition to check if the Tree Node is empty or not
@@ -91,6 +92,7 @@ class Tree {
 		}
 	}
 
+	// Statistical Functions
 	// height Function to get the height of the Tree
 	public int height(Node node) {
 		// Condition to check if the Tree Node is empty or not
