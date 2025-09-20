@@ -49,8 +49,17 @@ int main()
     
     // Test leaf count
     printf("Number of leaf nodes: %d\n", countLeaves(root));
+	
+	// Test max
+    printf("Maximum value: %d\n", max(root));
+
+	// Test min
+    printf("Minimum value: %d\n", min(root));
     
-    // Test search
+	// Test Sum
+    printf("Sum of all nodes: %d\n", sum(root));
+    
+	// Test search
     printf("Is 4 present? %s\n", search(root, 4) ? "true" : "false");
     printf("Is 6 present? %s\n", search(root, 10) ? "true" : "false");
 
