@@ -15,7 +15,7 @@ class Node {
 }
 
 // Binary Search Tree class to create the tree
-class BTS {
+class BST {
 	// insert Function to insert elements in the tree
 	public Node insert(Node node, int element) {
 		Node temp = new Node(element);   // make temp node to store the new element
