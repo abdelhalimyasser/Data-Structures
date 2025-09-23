@@ -1,4 +1,5 @@
-#include "BTS.h"
+#include "BST.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
