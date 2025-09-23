@@ -38,9 +38,9 @@ public class Main
 		System.out.println("After reversing:");
 		s1.printStack();
 
-        stack.randomize();
+        s1.randomize();
         System.out.println("After randomize:");
-        stack.printStack();
+        s1.printStack();
 		
 		s1.swapData(10, 40);
 		System.out.println("After swapping 10 and 40:");
