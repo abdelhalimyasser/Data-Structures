@@ -72,7 +72,7 @@ class BST {
 		if(current == null)
 			return node;
 
-		// // Case 1: 0 or 1 child, Check if the node to be deleted has at most one child
+		// Case 1: 0 or 1 child, Check if the node to be deleted has at most one child
 		if(current.left == null || current.right == null) {
 			Node replacement = (current.left != null) ? current.left : current.right;
 			// Check if the node to be deleted is the root
