@@ -9,7 +9,7 @@ typedef struct Node {
 } Node;
 
 // Create Tree
-Node* BST(int data);
+Node* createBST(int data);
 
 // Insert Function to insert elements in the tree
 Node* insert(Node* node, int element);
@@ -28,3 +28,4 @@ void printPreOrder(Node* node);
 void freeTree(Node* node)
 
 #endif // BST_H_INCLUDED
+
