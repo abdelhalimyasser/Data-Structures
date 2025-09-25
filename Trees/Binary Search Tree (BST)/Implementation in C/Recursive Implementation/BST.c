@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 // Create Tree
-Node* createTreeNode(int data) {
+Node* createBST(int data) {
 	Node* node = (Node*)malloc(sizeof(Node));
 	if (node == NULL) {
 		printf("Memory allocation failed!\n");
@@ -106,6 +106,7 @@ void freeTree(Node* node) {
 	freeTree(node->right);
 	free(node);
 }
+
 
 
 
