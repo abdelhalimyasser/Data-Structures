@@ -17,4 +17,8 @@ bool search(Node node, int element);
 // printPreOrder Function to print preorder traversal (root -> left -> right)
 void printPreOrder(Node node);
 
+// Free the tree to prevent memory leaks
+void freeTree(Node* node)
+
 #endif // BST_H_INCLUDED
+
