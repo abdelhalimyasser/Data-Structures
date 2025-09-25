@@ -1,19 +1,6 @@
 package mypackage;
 import java.util.*;
 
-// Node class to create Nodes for the Tree
-class Node {
-	int data;
-	Node left;
-	Node right;
-
-	// Node Constractor to asign values
-	Node(int data) {
-		this.data = data;
-		left = right = null;
-	}
-}
-
 // Binary Search Tree class to create the tree
 class BST {
 	// Insert Function to insert elements in the tree
@@ -91,3 +78,4 @@ class BST {
 		printPreOrder(node.right);
 	}
 }
+
