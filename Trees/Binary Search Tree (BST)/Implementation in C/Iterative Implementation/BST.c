@@ -5,7 +5,7 @@
 
 
 // Create Tree
-TreeNode* createTreeNode(int data)
+TreeNode* createBST(int data)
 
 // Insert Function to insert elements in the tree
 Node insert(Node node, int element)
@@ -19,3 +19,4 @@ bool search(Node node, int element)
 // Traversals Function
 // printPreOrder Function to print preorder traversal (root -> left -> right)
 void printPreOrder(Node node)
+
