@@ -1,19 +1,6 @@
 package mypackage;
 import java.util.*;
 
-// Node class to create Nodes for the Tree
-public class Node {
-	int data;
-	Node left;
-	Node right;
-
-	// Node Constractor to asign values
-	Node(int data) {
-		this.data = data;
-		left = right = null;
-	}
-}
-
 // Tree class to make Trees
 public class Tree {
 	// Traversals Functions
