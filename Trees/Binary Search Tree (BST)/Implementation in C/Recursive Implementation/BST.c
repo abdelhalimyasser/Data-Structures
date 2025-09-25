@@ -4,11 +4,11 @@
 #include <stdbool.h>
 
 // Node structure for the tree
-typedef struct TreeNode{
+typedef struct Node{
     int data;
-    struct TreeNode* left;
-    struct TreeNode* right;
-}TreeNode;
+    struct Node* left;
+    struct Node* right;
+}Node;
 
 // Create Tree
 TreeNode* createTreeNode(int data)
@@ -25,4 +25,5 @@ bool search(Node node, int element)
 // Traversals Function
 // printPreOrder Function to print preorder traversal (root -> left -> right)
 void printPreOrder(Node node)
+
 
