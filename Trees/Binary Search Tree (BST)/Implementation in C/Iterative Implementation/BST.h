@@ -1,6 +1,13 @@
 #ifndef BST_H_INCLUDED
 #define BST_H_INCLUDED
 
+// Node structure for the tree
+typedef struct TreeNode{
+    int data;
+    struct TreeNode* left;
+    struct TreeNode* right;
+}TreeNode;
+
 // Create Tree
 TreeNode* createTreeNode(int data);
 
@@ -18,3 +25,4 @@ bool search(Node node, int element);
 void printPreOrder(Node node);
 
 #endif // BST_H_INCLUDED
+
