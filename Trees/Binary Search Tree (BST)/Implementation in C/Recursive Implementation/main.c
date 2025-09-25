@@ -5,10 +5,9 @@
 
 
 int main() {
-    Node* root = NULL;
+    Node* root = createBST(10);
 
     // Test inserting nodes: 10, 5, 15, 3, 7
-    root = insert(root, 10);
     root = insert(root, 5);
     root = insert(root, 15);
     root = insert(root, 3);
