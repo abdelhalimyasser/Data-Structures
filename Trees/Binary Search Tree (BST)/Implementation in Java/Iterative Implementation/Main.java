@@ -33,19 +33,19 @@ public class Main {
 		System.out.println("=== Deleting 5 ===");
 		root = bst.delete(root, 5);
 		System.out.print("BST Preorder after deleting 5: ");
-		bst.printPreOrder(root); // Expected: 10 7 15
+		bst.printPreOrder(root); 
 		System.out.println();
 
 		System.out.println("=== Deleting 10 ===");
 		root = bst.delete(root, 10);
 		System.out.print("BST Preorder after deleting 10: ");
-		bst.printPreOrder(root); // Expected: 15 7
+		bst.printPreOrder(root); 
 		System.out.println();
 
 		System.out.println("=== Deleting 8 ===");
 		root = bst.delete(root, 8);
 		System.out.print("BST Preorder after deleting 8 (not found): ");
-		bst.printPreOrder(root); // Expected: 15 7
+		bst.printPreOrder(root); 
 		System.out.println();
 	}
 }
