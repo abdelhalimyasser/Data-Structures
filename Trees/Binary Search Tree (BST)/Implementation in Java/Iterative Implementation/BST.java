@@ -49,10 +49,7 @@ class BST {
 		// Check if the element is actually present
 		while(current != null && current.data != element) {
 			prev = current;
-			if(current.data > element)
-				current = current.left;
-			else
-				current = current.right;
+			current = (element < current.data) ? current.left : current.right;
 		}
 
 		// Check if current is empty or not
