@@ -1,7 +1,7 @@
 import mypackage;
 
 // Define the node
-class Node {
+public class Node {
 	int data;
 	Node next;
 	// Node constractor to define the node variables
