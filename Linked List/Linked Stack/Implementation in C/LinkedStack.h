@@ -8,24 +8,24 @@ typedef struct Node{
 }Node;
 
 // createLinkedStack function to create the LinkedStack
-Node* createLinkedStack();
+Node* createLinkedStack(int data);
 
 // push function to insert elements in the stack at the top
-void push(int element);
+void push(Node* node, int element);
 
 // pop function to remove the last element
-int pop();
+int pop(Node* node);
 
 // peek function to return the last element without removing it
-int peek();
+int peek(Node* node);
 
 // size function to return the size of the stack
-int size();
+int size(Node* node);
 
 // isEmpty function to check if stack is full or not
-bool isEmpty();
+bool isEmpty(Node* node);
 
 // isFull function to check if stack is full or not
-bool isFull();
+bool isFull(Node* node);
 
 #endif // LinkedStack_H_INCLUDED
