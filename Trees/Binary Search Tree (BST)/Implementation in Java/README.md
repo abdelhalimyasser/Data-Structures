@@ -9,7 +9,7 @@ This project is part of a larger **"Data Structures"** repository that includes 
 ## 🚀 Implementations
 
 - **[BST Recursive Implementation](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Search%20Tree%20(BST)/Implementation%20in%20Java/Recursive%20Implementation)**: Uses recursive methods for all operations.
-- **[BST Iterative Implementation](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Search%20Tree%20(BST)/Implementation%20in%20Java/Iterative%20Implementation)**: Uses iterative methods with loops and stacks for efficiency.
+- **[BST Iterative Implementation](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Search%20Tree%20(BST)/Implementation%20in%20Java/Iterative%20Implementation)**: Uses iterative methods with loops.
 
 ---
 
@@ -43,14 +43,13 @@ Implementation in Java
 ```
 
 - **Iterative**:
-  - `BST.java`: Iterative implementation of BST operations (`insert`, `delete`, `search`, `printPreOrder`, `printTreeVisual`).
+  - `BST.java`:  Iterative implementation of BST operations (`insert`, `delete`, `search`, `printPreOrder`).
   - `Node.java`: Defines the `Node` class with data and left/right child references.
-  - `Main.java`: Test program for both iterative and recursive BSTs.
-  - `README.md`: Documentation for the iterative implementation.
+  - `Main.java`: Test program for iterative BST.
 - **Recursive**:
-  - `BST.java`: Recursive implementation of BST operations.
-  - `Node.java`: Same `Node` class as in Iterative.
-  - `README.md`: Documentation for the recursive implementation.
+  - `BST.java`:  Recursive implementation of BST operations (`insert`, `delete`, `search`, `printPreOrder`).
+  - `Node.java`: Defines the `Node` class with data and left/right child references.
+  - `Main.java`: Test program for recursive BST.
 - **README.md**: This file, providing an overview of the BST project.
 
 ---
