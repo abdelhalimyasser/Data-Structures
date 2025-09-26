@@ -1,8 +1,14 @@
 #ifndef LinkedStack_H_INCLUDED
 #define LinkedStack_H_INCLUDED
 
+// Define the node
+typedef struct Node{
+    int data;
+    Node* next;
+}Node;
+
 // createLinkedStack function to create the LinkedStack
-LinkedStack* createLinkedStack();
+Node* createLinkedStack();
 
 // push function to insert elements in the stack at the top
 void push(int element);
