@@ -17,9 +17,9 @@ int peek();
 int size();
 
 // isEmpty function to check if stack is full or not
-boolean isEmpty();
+bool isEmpty();
 
 // isFull function to check if stack is full or not
-boolean isFull();
+bool isFull();
 
 #endif // LinkedStack_H_INCLUDED
