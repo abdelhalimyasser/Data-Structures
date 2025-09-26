@@ -122,8 +122,8 @@ java Main
 ## 🧾 Notes
 
 - Both implementations use **integer values** for simplicity (not generic).
+- The iterative implementation uses loops, with O(1) space complexity for most operations (except `printPreOrder`, which use recursion).
 - The recursive implementation uses the call stack, with O(h) space complexity for operations (h = tree height).
-- The iterative implementation uses loops and a `Stack` for `printPreOrder`, reducing recursive stack overhead.
 - The `delete` function handles all cases: leaf nodes, nodes with one child, nodes with two children, and non-existent nodes.
 - The `printTreeVisual` method provides a rotated ASCII representation of the tree for debugging.
 - Part of a larger **Data Structures repository** with implementations of Stack, Queue, and more.
