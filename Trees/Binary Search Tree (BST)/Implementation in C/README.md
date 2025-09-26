@@ -100,19 +100,25 @@ The implementation is tested with the following BST:
 
 ```bash
 git clone https://github.com/abdelhalimyasser/data-structures.git
-cd Trees/Binary Search Tree (BST)/Implementation in C
+cd Trees/Binary Search Tree (BST)
 ```
 
-#### Compile the Code
+#### Compile and Run the Iterative Implementation
 
 ```bash
-gcc main.c -o bst
+cd Implementation in C
+cd Iterative Implementation
+gcc main.c -o main
+./main
 ```
 
-#### Run the Program
+#### Compile and Run the Recursive Implementation
 
 ```bash
-./bst
+cd Implementation in C
+cd Recursive Implementation
+gcc main.c -o main
+./main
 ```
 
 **Note**: Ensure all code is in `main.c` or adjust to include a separate `BST.h` if split. The `main.c` file tests the implementation.
@@ -123,6 +129,7 @@ gcc main.c -o bst
 
 - The implementation uses **integer values** for simplicity (not generic).
 - The iterative implementation uses loops, with O(1) space complexity for most operations (except `printPreOrder`, which use recursion).
+- The recursive implementation uses the call stack, with O(h) space complexity for operations (h = tree height).
 - The `delete` function handles all cases: leaf nodes, nodes with one child, nodes with two children, and non-existent nodes.
 - Memory leaks are prevented with `freeTree` and proper node deallocation in `insert` and `delete`.
 - The `printTreeVisual` function provides a rotated ASCII representation of the tree for debugging.
