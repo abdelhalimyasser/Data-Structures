@@ -5,7 +5,7 @@
 
 
 // Create Tree
-Node* createBST {
+Node* createBST(int data) {
 	Node* node = (Node*)malloc(sizeof(Node));
 	if (node == NULL) {
 		printf("Memory allocation failed!\n");
@@ -28,8 +28,13 @@ Node* insert(Node* node, int element) {
 	Node* current = node;
 	// loop in all the tree
 	while(true) {
+	    // condtion to check duplicates
+	    if (element == current->data) { 
+            free(temp); // Free the unused node
+            return node;
+        }
 		// condtion if the element is more than the current one or not
-		if(element > current->data) {
+		else if(element > current->data) {
 			// make the new element node in the right path to be the right child
 			if(current->right == NULL) {
 				current->right = temp;
@@ -50,32 +55,63 @@ Node* insert(Node* node, int element) {
 		else
 			return node;
 	}
+	return node;
 }
 
 // Delete Function to delete element in the tree
 Node* delete(Node* node, int element) {
-    // Condition to check if the Tree Node is empty or not
+	// Condition to check if the Tree Node is empty or not
 	if (node == NULL)
 		return NULL;
-		
-	Node prev = NULL;
-	Node current = node;
+
+	Node* prev = NULL;
+	Node* current = node;
 
 	// Check if the element is actually present
-	while(current != null && current.data != element) {
+	while(current != NULL && current->data != element) {
 		prev = current;
-		if(current.data > element)
-			current = current.left;
-		else
-			current = current.right;
+		current = (element < current->data) ? current->left : current->right;
 	}
 
 	// Check if current is empty or not
-	if(current == null)
+	if(current == NULL)
 		return node;
 
 	// Case 1: 0 or 1 child, Check if the node to be deleted has at most one child
-	while()
+	if(current->left == NULL || current->right == NULL) {
+		Node* replacement = (current->left != NULL) ? current->left : current->right;
+		// Check if the node to be deleted is the root
+		if (prev == NULL) {
+            free(current);
+            return replacement;
+        }
+		// Check if the left child is not exist
+		if(prev->left == current)
+			prev->left = replacement;
+		else
+			prev->right = replacement;
+		free(current);	
+	}
+
+	// Case 2: 2 children, Check if the node to be deleted is prev's left or right child and then replace this with newCurr
+	else {
+		Node* succ = current->right;
+		Node* succParent = current;
+
+		while(succ->left != NULL) {
+			succParent = succ;
+			succ = succ->left;
+		}
+		// Copy successor's data
+		current->data = succ->data;
+		// Delete successor has at most 1 child: right
+		if(succParent == current)
+			succParent->right = succ->right;
+		else
+			succParent->left = succ->right;
+		free(succ);	
+	}
+	return node;
 }
 
 // search Function to search about specific element in the tree
@@ -84,7 +120,7 @@ bool search(Node* node, int element) {
 	if (node == NULL)
 		return false;
 	// use current to traverse in the tree safely instead of using node
-	Node current = node;
+	Node* current = node;
 	// loop in all the tree
 	while(current != NULL) {
 		if(current->data == element)       // check if the element is equal to the root
