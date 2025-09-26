@@ -1,7 +1,7 @@
 import mypackage;
 
 // The LinkedStack Implementation
-class LinkedStack{
+public class LinkedStack{
     int size = 0;     // the counter of LinkedStack
     Node top = null;   
     
@@ -13,6 +13,7 @@ class LinkedStack{
         size++;        // counter to decrease the size of the Stack
     }
     
+    // pop function to remove the last element
     public int pop(){
         // condation to check if the stack is empty or not
         if (top == null) {
@@ -27,6 +28,7 @@ class LinkedStack{
         return temp.data;     // return the last element
     }
     
+    // peek function to return the last element without removing it
     public int peek(){
         // condation to check if the stack is empty or not
         if (top == null)      
@@ -34,6 +36,7 @@ class LinkedStack{
         return top.data;    // return the top element in the stack
     }
     
+    // size function to return the size of the stack
     public int size(){
         // condation to check if the stack is empty or not
         if (top == null)
@@ -41,6 +44,7 @@ class LinkedStack{
         return size;    // return the size of the stack
     }
     
+    // isEmpty function to check if stack is full or not
     public boolean isEmpty(){
         // condation to check if the stack is empty or not
         if(top == null)
@@ -48,6 +52,7 @@ class LinkedStack{
         return false;        // return false if the stack is full
     }
     
+    // isFull function to check if stack is full or not
     public boolean isFull(){
         // condation to check if the stack is empty or not
         if(top == null)
