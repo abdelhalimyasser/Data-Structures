@@ -5,7 +5,7 @@
 
 
 int main() {
-    Node* root = createTreeNode(10);;
+    Node* root = createBST(10);;
 
     // Test inserting nodes: 10, 5, 15, 3, 7
     root = insert(root, 5);
@@ -52,4 +52,5 @@ int main() {
     freeTree(root);
     return 0;
 }
+
 
