@@ -3,7 +3,7 @@
 #include "LinkedStack.h"
 
 // createLinkedStack function to create the LinkedStack
-LinkedStack* createLinkedStack();
+Node* createLinkedStack();
 
 // push function to insert elements in the stack at the top
 void push(int element);
