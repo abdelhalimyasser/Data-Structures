@@ -46,7 +46,7 @@ class BST {
 		Node prev = null;
 		Node current = node;
 
-		// Check if the key is actually present
+		// Check if the element is actually present
 		while(current != null && current.data != element) {
 			prev = current;
 			if(current.data > element)
