@@ -1,7 +1,7 @@
 import mypackage;
 
 // The LinkedQueue Implementation
-class LinkedQueue {
+public class LinkedQueue {
 	int size;          // the counter of LinkedQueue
 	Node rear;
 	Node front;
