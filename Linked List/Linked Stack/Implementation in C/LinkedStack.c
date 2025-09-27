@@ -3,14 +3,6 @@
 #include <stdbool.h>
 #include "LinkedStack.h"
 
-// Define the structure for a stack node
-typedef struct Node {
-	int data;
-	int size;
-	struct Node* next;
-} Node;
-
-
 // Function to create a new node
 Node* createNode(int data) {
 	Node* node = (Node*)malloc(sizeof(Node));
