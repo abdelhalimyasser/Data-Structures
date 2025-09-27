@@ -10,7 +10,7 @@ public class LinkedStack{
         Node temp = new Node(element);   // temp node to store the first element
         temp.next = top;       // make the assign the next to the temp 
         top = temp;          //  assign the temp to the top
-        size++;        // counter to decrease the size of the Stack
+        size++;        // counter to increase the size of the Stack
     }
     
     // pop function to remove the last element
