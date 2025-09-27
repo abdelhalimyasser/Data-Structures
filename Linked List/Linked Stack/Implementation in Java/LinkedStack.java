@@ -43,6 +43,21 @@ public class LinkedStack{
             return -1;
         return size;    // return the size of the stack
     }
+
+     // Prints the stack elements with indices
+    public void print() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return;
+        }
+        System.out.println("Stack:");
+        Node current = top;
+        int index = 0;
+        while (current != null) {
+            System.out.println("[" + index++ + "] -> " + current.data);
+            current = current.next;
+        }
+    }
     
     // isEmpty function to check if stack is full or not
     public boolean isEmpty(){
@@ -58,5 +73,11 @@ public class LinkedStack{
         if(top == null)
             return false;
         return true;            // return true if the stack is full
+    }
+
+    // Clears all nodes in the stack
+    public void clear() {
+        top = null;
+        size = 0;
     }
 }
