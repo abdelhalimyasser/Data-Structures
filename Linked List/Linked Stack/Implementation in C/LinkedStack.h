@@ -1,31 +1,35 @@
 #ifndef LinkedStack_H_INCLUDED
 #define LinkedStack_H_INCLUDED
 
-// Define the node
-typedef struct Node{
-    int data;
-    Node* next;
-}Node;
+// Define the structure for a stack node
+typedef struct Node {
+	int data;
+	int size;
+	struct Node* next;
+} Node;
 
-// createLinkedStack function to create the LinkedStack
-Node* createLinkedStack(int data);
+// Function to create a new node
+Node* createNode(int data);
 
 // push function to insert elements in the stack at the top
-void push(Node* node, int element);
+void push(Node** top, int* size, int element);
 
 // pop function to remove the last element
-int pop(Node* node);
+int pop(Node** top, int* size);
 
 // peek function to return the last element without removing it
-int peek(Node* node);
+int peek(Node* top);
 
-// size function to return the size of the stack
-int size(Node* node);
+// Print the stack elements
+void print(Node* top);
 
 // isEmpty function to check if stack is full or not
-bool isEmpty(Node* node);
+bool isEmpty(Node* top);
 
 // isFull function to check if stack is full or not
-bool isFull(Node* node);
+bool isFull(Node* top);
+
+// freeLinkedStack function to free out the stack to avoid memory leakage
+void freeLinkedStack(Node** top, int* size);
 
 #endif // LinkedStack_H_INCLUDED
