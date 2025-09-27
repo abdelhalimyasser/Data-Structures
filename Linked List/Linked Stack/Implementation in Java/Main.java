@@ -1,29 +1,42 @@
 import mypackage;
 
-public class Main
-{
-	public static void main(String[] args) {
-		LinkedStack st = new LinkedStack();
-
+public class Main {
+    public static void main(String[] args) {
+        LinkedStack stack = new LinkedStack();
+        
         // pushing elements
-        st.push(1);
-        st.push(2);
-        st.push(3);
-        st.push(4);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+
+        System.out.println("Stack after pushes: ");
+        stack.print();
+
+        System.out.println("\nTop element: " + stack.peek());
 
         // popping one element
-        System.out.println("Popped: " + st.pop());
+        System.out.println("Popped element: " + stack.pop());
 
-        // checking top element
-        System.out.println("Top element: " + st.peek());
+        System.out.println("\nStack after pop: ");
+        stack.print();
         
         // checking current size
-        System.out.println("Current size: " + st.size());
+        System.out.println("\nCurrent size: " + stack.size());
         
         // checking if stack is empty
-        System.out.println("Is stack empty: " + (st.isEmpty() ? "Yes" : "No"));
-        
+        System.out.println("Is stack empty: " + (stack.isEmpty() ? "Yes" : "No"));
+
         // checking if stack is full
-        System.out.println("Is stack full: " + (st.isFull() ? "Yes" : "No"));
-	}
+        System.out.println("Is stack full: " + (stack.isFull() ? "Yes" : "No"));
+        
+        stack.clear();
+        System.out.println("\nAfter Clear:");
+        
+        // checking current size
+        System.out.println("\nCurrent size: " + stack.size());
+        
+        // checking if stack is empty
+        System.out.println("Is stack empty: " + (stack.isEmpty() ? "Yes" : "No"));
+    }
 }
