@@ -120,7 +120,7 @@ Is stack empty: Yes
 ---
 
 # 🛠️ Setup Instructions
-## Run the C Implementation
+## Run the Java Implementation
 ### Clone the Repository
 ```bash
 git clone https://github.com/abdelhalimyasser/data-structures.git
@@ -134,7 +134,7 @@ javac Main.java
 java Main
 ```
 
-*Note: Ensure all code is in main.c or adjust to include a separate stack.h if split. The main.c file tests the implementation.*
+*Note: Ensure all code is in Main.java or adjust to include separate files if split. The Main.java file tests the implementation.*
 
 ---
 
