@@ -102,7 +102,7 @@ Is queue empty: Yes
 ### Clone the Repository
 ```bash
 git clone https://github.com/abdelhalimyasser/data-structures.git
-cd Queue/Linked Queue/Implementation in C
+cd Linked list/Linked Queue/Implementation in C
 ```
 ### Compile and Run
 ```bash
@@ -116,7 +116,7 @@ gcc main.c LinkedQueue.c -o main
 ### Clone the Repository
 ```bash
 git clone https://github.com/abdelhalimyasser/data-structures.git
-cd Queue/Linked Queue/Implementation in Java
+cd Linked List/Linked Queue/Implementation in Java
 ```
 ### Compile and Run
 ```bash
