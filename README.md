@@ -135,4 +135,4 @@ For questions, suggestions, or collaboration, reach out via:
 
 ## 🚀 Happy Learning!
 
-**This repository is a resource for students, educators, and developers to explore and master data structures. Contributions are welcome—feel free to fork, submit pull requests, or open issues!**
+**This repository is a resource for students, educators, and developers to explore and master data structures. Contributions are welcome feel free to fork, submit pull requests, or open issues!**
