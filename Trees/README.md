@@ -29,7 +29,7 @@ A **Tree** is a hierarchical data structure consisting of nodes connected by edg
 You can try the **interactive tree visualizations** here:  
 **👉 [Binary Search Tree Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Binary%20Tree%20Visualizer.html)** 
 <!--
-**👉 [Heap Visualizer]()**
+**👉 [Heap Visualizer](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Heap%20Visualizer.html)**
 -->
 
 ---
