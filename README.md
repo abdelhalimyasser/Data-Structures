@@ -10,8 +10,8 @@ Each data structure is implemented iteratively (and recursively where applicable
 
 ## 🚀 Features
 
-- **Multiple Data Structures**: Includes Linked Lists (Singly, Doubly, Queue, Stack), Queues (Array-based, Circular, Deque), Stacks, and Trees (Binary, BST, AVL, Heap).
-- **Dual Implementations**: Each data structure is implemented in both C and Java, showcasing language-specific approaches.
+- **Multiple Data Structures**: Includes Linked Lists (`Singly`, `Doubly`, `Queue`, `Stack`), Queues (`Array-based`, `Circular`, `Deque`), Stacks, and Trees (`Binary`, `BST`, `AVL`, `Heap`).
+- **Dual Implementations**: Each data structure is implemented in both `C` and `Java`, showcasing language-specific approaches.
 - **Educational Focus**: Well-commented code, detailed READMEs in each subfolder, and test programs to demonstrate functionality.
 - **Interactive Visualizations**: Links to online tools for visualizing data structure operations.
 - **Open Source**: Licensed under the included [LICENSE](./LICENSE) file.
@@ -33,23 +33,23 @@ Each data structure is implemented iteratively (and recursively where applicable
 This repository organizes data structures into four main categories, each with multiple implementations:
 
 - **Linked List**: Linear data structures using nodes with dynamic memory allocation.
-  - **Singly Linked List**: Nodes link to the next node, optimized for sequential access.
-  - **Doubly Linked List**: Nodes link to both next and previous nodes for bidirectional traversal.
-  - **Linked Queue**: A FIFO queue implemented using a singly linked list.
-  - **Linked Stack**: A LIFO stack implemented using a singly linked list.
-- **Queue**: FIFO data structures for ordered processing.
-  - **Array-based Queue**: A fixed-size queue using an array.
-  - **Circular Queue**: An array-based queue with wrap-around for efficient space usage.
+  - **Singly Linked List**: `Nodes` link to the next node, optimized for sequential access.
+  - **Doubly Linked List**: `Nodes` link to both next and previous nodes for bidirectional traversal.
+  - **Linked Queue**: A `FIFO` queue implemented using a singly linked list.
+  - **Linked Stack**: A `LIFO` stack implemented using a singly linked list.
+- **Queue**: `FIFO` data structures for ordered processing.
+  - **Array-based Queue**: A fixed-size queue using an `array`.
+  - **Circular Queue**: An `array-based` queue with wrap-around for efficient space usage.
   - **Double Ended Queue (Deque)**: Allows insertion and deletion at both ends.
-- **Stack**: LIFO data structure for applications like function call stacks.
+- **Stack**: `LIFO` data structure for applications like function call stacks.
   - Implemented using arrays in both C and Java.
 - **Trees**: Hierarchical data structures for efficient searching and organization.
-  - **Binary Tree**: Nodes with at most two children for general hierarchical data.
-  - **Binary Search Tree (BST)**: Nodes organized by value for efficient searching, with both iterative and recursive implementations.
+  - **Binary Tree**: `Nodes` with at most two children for general hierarchical data.
+  - **Binary Search Tree (BST)**: `Nodes` organized by value for efficient searching, with both `iterative` and `recursive` implementations.
   - **AVL Tree**: A self-balancing BST for optimized search performance.
-  - **Binary Heap**: A complete binary tree for priority queue operations.
+  - **Binary Heap**: A complete `binary tree` for priority `queue` operations.
 
-Each subfolder contains C and Java implementations (where applicable), with source code, header/class files, test programs (`main.c` or `Main.java`), and a dedicated `README.md` for detailed documentation.
+Each subfolder contains `C` and `Java` implementations (where applicable), with source code, header/class files, test programs (`main.c` or `Main.java`), and a dedicated `README.md` for detailed documentation.
 
 ---
 
