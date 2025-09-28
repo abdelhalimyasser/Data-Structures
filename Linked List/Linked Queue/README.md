@@ -8,8 +8,8 @@ This project is part of a larger **"Data Structures"** repository that includes 
 
 ## 🚀 Implementations
 
-- **[Linked Queue in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Queue/Linked%20Queue/Implementation%20in%20C)**: Uses iterative methods with pointers for all operations.
-- **[Linked Queue in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Queue/Linked%20Queue/Implementation%20in%20Java)**: Uses iterative methods with object references for all operations.
+- **[Linked Queue in C](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Linked%20List/Linked%20Queue/Implementation%20in%20C)**: Uses iterative methods with pointers for all operations.
+- **[Linked Queue in Java](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Linked%20List/Linked%20Queue/Implementation%20in%20Java)**: Uses iterative methods with object references for all operations.
 
 ---
 
