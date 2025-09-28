@@ -1,21 +1,4 @@
 # 📦 Queue
-
----
-
-## 🚀 Implementations
-
-- **[Queue in C](https://github.com/abdelhalim-yasser/Queue/tree/main/Implementation%20of%20Queue%20in%20C)**
-- **[Queue in Java](https://github.com/abdelhalim-yasser/Queue/tree/main/Implementation%20of%20Queue%20in%20Java)**
-
----
-
-## 🌐 Try it Online
-
-You can try the **interactive queue visualization** here:  
-👉 **[Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Queue%20Visualizer.html)**
-
----
-
 ## 📌 About Queue
 
 A **Queue** is a linear data structure that follows the **FIFO** (First In, First Out) principle.  
@@ -31,6 +14,20 @@ The first element inserted is the first one to be removed.
 
 ---
 
+## 🚀 Implementations
+
+- **[Circular Queue](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Queue/Circular%20Queue)**
+- **[Double Ended Queue(Deque)](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Queue/Double%20Ended%20Queue(Deque))**
+- **[Queue](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Queue/Queue)**
+---
+
+## 🌐 Try it Online
+
+You can try the **interactive queue visualization** here:  
+👉 **[Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Queue%20Visualizer.html)**
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -43,10 +40,6 @@ The first element inserted is the first one to be removed.
     ├── Main.java
     ├── Queue.java
     └── Readme.md
-├── README.md
-├── index.html
-├── script.js
-└── styles.css
 ```
 ---
 
