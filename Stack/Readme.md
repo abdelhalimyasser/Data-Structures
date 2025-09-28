@@ -1,4 +1,16 @@
 # 📦 Stack
+## 📌 About Stack
+
+A **Stack** is a linear data structure that follows the **LIFO** (Last In, First Out) principle.  
+The last element inserted is the first one to be removed.
+
+**Main Operations:**
+- `push()` → Add an element to the top of the stack  
+- `pop()` → Remove the element from the top of the stack  
+- `peek()` → View the top element without removing it  
+- `isEmpty()` → Check if the stack is empty  
+
+💡 *Each implementation folder contains common functions and some different ones, but the core logic is the same.*
 
 ---
 
@@ -16,21 +28,6 @@ You can try the **interactive stack visualization** here:
 
 ---
 
-## 📌 About Stack
-
-A **Stack** is a linear data structure that follows the **LIFO** (Last In, First Out) principle.  
-The last element inserted is the first one to be removed.
-
-**Main Operations:**
-- `push()` → Add an element to the top of the stack  
-- `pop()` → Remove the element from the top of the stack  
-- `peek()` → View the top element without removing it  
-- `isEmpty()` → Check if the stack is empty  
-
-💡 *Each implementation folder contains common functions and some different ones, but the core logic is the same.*
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -43,10 +40,6 @@ The last element inserted is the first one to be removed.
     ├── Main.java
     ├── Readme.md
     └── Stack.java
-├── README.md
-├── index.html
-├── script.js
-└── styles.css
 ```
 
 ---
