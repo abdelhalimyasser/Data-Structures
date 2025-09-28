@@ -27,7 +27,8 @@ A **Tree** is a hierarchical data structure consisting of nodes connected by edg
 ## 🌐 Try it Online
 
 You can try the **interactive tree visualizations** here:  
-👉 **[Binary Search Tree Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Binary%20Tree%20Visualizer.html)**  
+**👉 [Binary Search Tree Live Demo](https://abdelhalimyasser.github.io/Data-Structure-Visualizers/Binary%20Tree%20Visualizer.html)** 
+
 ---
 
 ## 📂 Project Structure
