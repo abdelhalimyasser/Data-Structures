@@ -17,7 +17,7 @@ A **Tree** is a hierarchical data structure consisting of nodes connected by edg
 
 ## 🚀 Implementations
 
-- **[AVL Tree](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/AVL%20Tree)**: A self-balancing binary search tree where the height difference between left and right subtrees is at most 1.
+<!-- - **[AVL Tree](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/AVL%20Tree)**: A self-balancing binary search tree where the height difference between left and right subtrees is at most 1. -->
 - **[Binary Heap](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Heap)**: A complete binary tree that satisfies the heap property, used for priority queues.
 - **[Binary Search Tree (BST)](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Search%20Tree)**: A binary tree where each node's left subtree contains smaller values and right subtree contains larger values.
 - **[Binary Tree](https://github.com/abdelhalimyasser/Data-Structures/tree/main/Trees/Binary%20Tree)**: A general tree where each node has at most two children, used for hierarchical data representation.
@@ -38,17 +38,6 @@ You can try the **interactive tree visualizations** here:
 
 ```
 ├── Trees
-    ├── AVL Tree
-    │   ├── Implementation in C
-    │   │   ├── AVLTree.c
-    │   │   ├── AVLTree.h
-    │   │   ├── main.c
-    │   │   └── README.md
-    │   ├── Implementation in Java
-    │   │   ├── AVLTree.java
-    │   │   ├── Node.java
-    │   │   ├── Main.java
-    │   │   └── README.md
     ├── Binary Heap
     │   ├── Implementation in C
     │   │   ├── BinaryHeap.c
