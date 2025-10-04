@@ -1,6 +1,4 @@
-#include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
 #define MAX_SIZE 100
 
 
@@ -43,37 +41,87 @@ void buildHeap(int* arr, int size) {
 		heapify(arr, size, i);
 }
 
-// get the mininmum from the heap without deleting it
-int getMin(int* heap, int* size) {
-	return heap[0];
+// insert function to insert into the heap
+void insert(int* heap, int* size, int element) {
+	// condtion to check if the heap array is full or not to avoid errors
+	if (*size == MAX_SIZE) {
+		printf("Heap Overflow!\n");
+		return;
+	}
+
+	heap[size] = element;   // set the new element at the end
+	(*size)++;            // increase the size 
+	int i = *size - 1;    
+	
+	while (i > 0) {
+	    // check if the element is bigger that the node before or not 
+	    // (the (i - 1) to jump backward with one step and /2 to go to the node if it hve two children)
+		if (heap[(i - 1) / 2] > heap[i]) {
+			swap(heap + (i - 1) / 2, heap + i);  // swap the last element with previos node
+			i = (i - 1) / 2;               // update the index
+		}
+		else
+			break;
+	}
+}
+
+// delete function to delete element in the heap
+void delete (int* heap, int* size, int index) {
+	// condtion to check if the heap array is empty or not to avoid errors
+	if (*size == 0) {
+		printf("Heap Underflow\n");
+		return;
+	}
+	
+	heap[index] = heap[*size - 1];
+    (*size)--;
+
+    heapify(heap, size, index);
 }
 
 // extract the mininmum from the heap and delete if
 int extractMin(int* heap, int* size) {
+	// condtion to check if the heap array is empty or not to avoid errors
+	if (size == 0)
+		return -1;
 	int min = heap[0];
 	delete (heap, size, 0);
 	return min;
 }
 
-// insert function to insert into the heap
-void insert(int* heap, int* size, int element){
-    
+// extract the mininmum from the heap and delete if
+int extractMin(int* heap, int* size) {
+	// condtion to check if the heap array is empty or not to avoid errors
+	if (size == 0)
+		return -1;
+	int max = heap[size - 1];
+	delete (heap, size, (size - 1));
+	return max;
 }
 
-// delete function to delete element in the heap
-void delete (int* heap, int* size, int index)
+// get the mininmum from the heap without deleting it
+int getMin(int* heap, int size) {
+	// condtion to check if the heap array is empty or not to avoid errors
+	if (size == 0)
+		return -1;
+	return heap[0];
+}
+
+// get the maxinmum from the heap without deleting it
+int getMax(int* heap, int size) {
+	// condtion to check if the heap array is empty or not to avoid errors
+	if (size == 0)
+		return -1;
+	return heap[size - 1];
+}
 
 // function to print heap
 void printHeap(int* heap, int size) {
+	// condtion to check if the heap array is empty or not to avoid errors
+	if (*size == 0) {
+		printf("Empty Heap\n");
+		return;
+	}
 	for(int i = 0; i < size; i++)
 		printf("[%d] -> %d\n", i, heap[i]);
-}
-
-
-
-int main()
-{
-	printf("Hello World");
-
-	return 0;
 }
