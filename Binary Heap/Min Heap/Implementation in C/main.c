@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include"minHeap.h"
+#define MAX_SIZE 100
 
 int main()
 {
