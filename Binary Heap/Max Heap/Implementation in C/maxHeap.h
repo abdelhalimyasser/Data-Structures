@@ -15,19 +15,19 @@ void buildHeap(int* arr, int size);
 void insert(int* heap, int* size, int element);
 
 // delete function to delete element in the heap
-void delete(int* heap, int* size, int index);
+void delete (int* heap, int* size, int index);
 
-// extract the mininmum from the heap and delete if
-int extractMin(int* heap, int* size);
-
-// extract the maximum from the heap and delete if
+// Extract the maximum from the heap and delete it
 int extractMax(int* heap, int* size);
 
-// get the mininmum from the heap without deleting it
-int getMin(int* heap, int size);
+// Extract the minimum from the heap and delete it
+int extractMin(int* heap, int* size);
 
-// get the maximum from the heap without deleting it
+// Get the maximum from the heap without deleting it
 int getMax(int* heap, int size);
+
+// Get the minimum from the heap without deleting it
+int getMin(int* heap, int size);
 
 // function to print heap
 void printHeap(int* heap, int size);
