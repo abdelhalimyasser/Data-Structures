@@ -70,6 +70,28 @@ A **Linked Queue** is a queue data structure implemented using a singly linked l
 - `README.md`: Overview of the Java implementation.
 
 ---
+## 📈 Performance
+
+| Operation            | C Time Complexity | Java Time Complexity |
+|----------------------|-------------------|----------------------|
+| `createQueue` (C) / Constructor (Java) | O(1)             | O(1)                |
+| `createNode` (C) / Node Constructor (Java) | O(1)             | O(1)                |
+| `enqueue`            | O(1)             | O(1)                |
+| `dequeue`            | O(1)             | O(1)                |
+| `peek`               | O(1)             | O(1)                |
+| `print`              | O(n)             | O(n)                |
+| `isEmpty`            | O(1)             | O(1)                |
+| `isFull`             | O(1)             | O(1)                |
+| `freeLinkedQueue` (C) / `clear` (Java) | O(n)             | O(1)                |
+| `size` (Java only)   | N/A              | O(1)                |
+
+**Space Complexity**: 
+- O(1) for `enqueue`, `dequeue`, `peek`, `isEmpty`, `isFull`, and `size` (excluding the node created in `enqueue`).
+- O(n) for `print` and `freeLinkedQueue` (C) due to the traversal of the linked list.
+- O(1) for `clear` in Java, as it only resets pointers without traversal.
+- The linked queue itself requires O(n) space for `n` nodes.
+- `createQueue` and `createNode` (C) / Constructor and Node Constructor (Java) use O(1) auxiliary space (excluding the queue or node itself).
+---
 
 ## 🧱 Example Usage
 
