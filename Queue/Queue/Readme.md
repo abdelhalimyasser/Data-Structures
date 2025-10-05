@@ -48,6 +48,20 @@ Queue
 ```
 ---
 
+## 📈 Performance
+
+| Operation        | C Time Complexity | Java Time Complexity |
+|------------------|-------------------|----------------------|
+| `createQueue`    | O(1)             | O(1)                |
+| `isFull`         | O(1)             | O(1)                |
+| `isEmpty`        | O(1)             | O(1)                |
+| `enqueue`        | O(1)             | O(1)                |
+| `dequeue`        | O(1)             | O(1)                |
+| `clear`          | O(1)             | O(1)                |
+| `peek`           | O(1)             | O(1)                |
+| `printQueue`     | O(n)             | O(n)                |
+
+**Space Complexity**: O(1) for all operations (excluding the queue array, which is O(CAPACITY) in C and O(capacity) in Java).
 
 ---
 
