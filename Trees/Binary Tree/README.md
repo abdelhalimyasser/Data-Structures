@@ -71,6 +71,32 @@ Binary Tree
 
 ---
 
+## 📈 Performance
+
+| Operation             | C Time Complexity | Java Time Complexity |
+|-----------------------|-------------------|----------------------|
+| `createTreeNode`      | O(1)             | O(1)                |
+| `printPreOrder`       | O(n)             | O(n)                |
+| `printInOrder`        | O(n)             | O(n)                |
+| `printPostOrder`      | O(n)             | O(n)                |
+| `printLevelOrder`     | O(n)             | O(n)                |
+| `height`              | O(n)             | O(n)                |
+| `size`                | O(n)             | O(n)                |
+| `countLeaves`         | O(n)             | O(n)                |
+| `max`                 | O(n)             | O(n)                |
+| `min`                 | O(n)             | O(n)                |
+| `sum`                 | O(n)             | O(n)                |
+| `search`              | O(n)             | O(n)                |
+| `freeTree` (C only)   | O(n)             | N/A                 |
+
+**Space Complexity**: 
+- O(h) for recursive operations (`printPreOrder`, `printInOrder`, `printPostOrder`, `height`, `size`, `countLeaves`, `max`, `min`, `sum`, `search`, `freeTree`), where `h` is the height of the tree, due to the recursion stack. In a balanced tree, `h = O(log n)`; in a skewed tree, `h = O(n)`.
+- O(w) for `printLevelOrder`, where `w` is the maximum width of the tree (maximum number of nodes at any level), due to the queue. In a balanced tree, `w = O(n/2) ≈ O(n)`; in a skewed tree, `w = O(1)`.
+- `createTreeNode` uses O(1) auxiliary space (excluding the node itself).
+- The tree structure itself requires O(n) space for `n` nodes.
+
+---
+
 ## 🧱 Example Usage
 
 ### 🌲 Sample Tree
