@@ -72,6 +72,29 @@ A **Linked Stack** is a stack data structure implemented using a singly linked l
 
 ---
 
+## 📈 Performance
+
+| Operation            | C Time Complexity | Java Time Complexity |
+|----------------------|-------------------|----------------------|
+| `createNode`         | O(1)             | O(1)                |
+| `push`               | O(1)             | O(1)                |
+| `pop`                | O(1)             | O(1)                |
+| `peek`               | O(1)             | O(1)                |
+| `print`              | O(n)             | O(n)                |
+| `isEmpty`            | O(1)             | O(1)                |
+| `isFull`             | O(1)             | O(1)                |
+| `freeLinkedStack` (C) / `clear` (Java) | O(n)             | O(1)                |
+| `size` (Java only)   | N/A              | O(1)                |
+
+**Space Complexity**: 
+- O(1) for `push`, `pop`, `peek`, `isEmpty`, `isFull`, and `size` (excluding the node created in `push`).
+- O(n) for `print` and `freeLinkedStack` (C) due to the traversal of the linked list.
+- O(1) for `clear` in Java, as it only resets pointers without traversal.
+- The linked stack itself requires O(n) space for `n` nodes.
+- `createNode` uses O(1) auxiliary space (excluding the node itself).
+
+---
+
 ## 🧱 Example Usage
 
 #### 🔁 Operations Output
