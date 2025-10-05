@@ -1,3 +1,5 @@
+package mypackage.MinHeap;
+
 public class MinHeap {
 	private int size;
 	private int[] heap;
