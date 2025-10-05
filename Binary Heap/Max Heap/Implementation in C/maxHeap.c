@@ -16,11 +16,9 @@ void heapify(int* heap, int size, int i) {
 	int rightChild = 2*i + 2;
 	int largest = i;   // assign the maximum index with the the index
 
-	// if the leftChild index less then the  used size and left child in the array less than the smallest
 	if (leftChild < size && heap[leftChild] > heap[largest])
         largest = leftChild;     // make the largest is the leftChild
 
-	// if the rightChild index less then the used size and rightChild in the array less than the smallest
 	if (rightChild < size && heap[rightChild] > heap[largest])
         largest = rightChild;    // make the largest is the rightChild
     
