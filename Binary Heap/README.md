@@ -35,25 +35,21 @@ This folder contains implementations of **Max-Heap** and **Min-Heap** in both `C
 ├── Binary Heap
     ├── Max Heap
     │   ├── Implementation in C
-    │   │   ├── README.md
     │   │   ├── main.c
     │   │   ├── maxHeap.c
     │   │   └── maxHeap.h
     │   ├── Implementation in Java
     │   │   ├── Main.java
-    │   │   ├── README.md
     │   │   └── MaxHeap.java
     │   └── README.md
     ├── Min Heap
     │   ├── Implementation in C
-    │   │   ├── README.md
     │   │   ├── main.c
     │   │   ├── minHeap.c
     │   │   └── minHeap.h
     │   ├── Implementation in Java
     │   │   ├── Main.java
     │   │   ├── MinHeap.java
-    │   │   └── README.md
     │   └── README.md
     └── README.md
 ```
