@@ -10,8 +10,6 @@ void swap(int* a, int* b) {
 }
 
 // heapify main function to sort the indexes correct
-//             array   real size  index
-//              !          !        !
 void heapify(int* heap, int size, int i) {
 	// prepare the index of the the next children
 	int leftChild = 2*i + 1;
